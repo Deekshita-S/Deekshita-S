@@ -68,7 +68,7 @@
 ## 📫 Connect With Me
 
 - [LinkedIn](https://www.linkedin.com/in/deekshita-iyer-7554bb268/)  
-- [Email](mailto:deekshita809@gmail.com)
+- [deekshita809@gmail.com](mailto:deekshita809@gmail.com)
 
 ---
 
