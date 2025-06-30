@@ -1,4 +1,4 @@
-# 👋 Hi, I'm [Your Name]!
+# 👋 Hi, I'm [Deekshita Iyer]!
 
 🎓 **MSc Data Science Gold Medalist** (2025 Batch, DIAT)  
 
