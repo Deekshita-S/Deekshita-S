@@ -1,16 +1,72 @@
-## Hi there 👋
+# 👋 Hi, I'm [Your Name]!
 
-<!--
-**Deekshita-S/Deekshita-S** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 **MSc Data Science Gold Medalist** (2025 Batch, DIAT)  
+🔬 Research experience at IISER Bhopal (Federated Learning) and at GTRE,DRDO (Unsupervised Early failure detection)
+💻 Passionate about Machine Learning, NLP, and Predictive Maintenance  
+🧠 Always exploring new models, frameworks, and datasets
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧑‍💻 Projects
+
+### 🛰️ [Communication-Efficient Federated Learning – IISER Bhopal Internship](https://github.com/Deekshita-S/LANDER)
+- Modified the original LANDER code to reduce communication overhead and client training load in federated class-incremental learning.
+- Introduced entropy-based image selection to send only the most informative 50% of synthetic images.
+- Added a proximal term to the local loss function to improve model stability during client updates.
+- Main changes made in lander.py (methods folder) and the ImagePool class.
+
+
+### 🔧 [Degradation onset detection](https://github.com/Deekshita-S/Degradation-detection-in-CMAPSS-dataset)
+- Developed a pipeline to detect degradation onset in the FD001 (CMAPSS) dataset using ML/DL models.
+- Used DBSCAN clustering and t-SNE visualization to identify healthy segments in the sensor data.
+- Trained unsupervised models (OCSVM, LSTM Autoencoders, Transformer Autoencoders) on healthy data only.
+- Detected the onset of degradation based on reconstruction errors or decision function scores.
+
+
+### 💬 [Brand Sentiment Classification with BERT](https://github.com/Deekshita-S/Twitter-Brand-Sentiment-Analysis)
+- Fine-tuned a BERT model on brand-related tweets for 3-class sentiment classification (positive, neutral, negative), using data augmentation and class-weighted loss to handle imbalance.
+- Initial traditional ML approaches underperformed (~73% accuracy), prompting a shift to BERT-based modeling with optimized preprocessing strategies.
+- Achieved ~87% accuracy and 88.6% F1-score, with performance tracked using Weights & Biases (WandB).
+
+
+### ☀️ [Solar Panel Efficiency Prediction (ML Competition)](https://github.com/Deekshita-S/Solar-panel-efficiency-prediction---Zelestra-Challenge)
+- Participated in the Zelestra X AWS ML Ascend Challenge, predicting solar panel efficiency using real-world sensor and metadata features.
+- Performed extensive data cleaning, feature selection, and EDA, engineering domain-specific features and using IterativeImputer for missing values.
+- Achieved a top-tier score (89.79/100)  using a stacked ensemble of Random Forest, XGBoost, and CatBoost, outperforming deep learning models
+
+
+### 🚌 [Seat Demand Forecasting – Redbus Data Decode Hackathon](https://github.com/Deekshita-S/Redbus-challenge)
+
+- Participated in the **Redbus Data Decode Hackathon**, predicting route-level seat bookings 15 days before the journey date using transaction and route metadata.  
+- Engineered features based on **city tier, region pairs, holidays, and booking patterns**, while restricting training data to 15–30 days prior to journey.  
+- Achieved **RMSE of 679**, ranking **#226 out of ~830 teams**, with **Random Forest** outperforming other models like XGBoost and LSTM.
+
+
+---
+
+## 🔧 Tools & Technologies
+
+- **Languages:** Python, SQL  
+- **Frameworks:** PyTorch, Hugging Face
+- **Tools:** WandB, Git, Jupyter, Pandas, NumPy, Matplotlib, Seaborn, NLTK, scikit-learn
+- **Specialties:** Data Augmentation, Domain Adaptation, Clustering, Transformer Models, NLP
+
+---
+
+## 📈 Currently Learning
+
+- Hugging Face Transformers  
+- Efficient Fine-tuning (LoRA, PEFT)  
+- Advanced Model Monitoring & Evaluation  
+- MLOps & Deployment Tools
+
+---
+
+## 📫 Connect With Me
+
+- [LinkedIn](https://www.linkedin.com/in/deekshita-iyer-7554bb268/)  
+- [Email][your.email@example.com](mailto:deekshita809@gmail.com)
+
+---
+
+> “In data we trust, in learning we grow.”
