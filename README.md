@@ -1,8 +1,11 @@
 # 👋 Hi, I'm [Your Name]!
 
 🎓 **MSc Data Science Gold Medalist** (2025 Batch, DIAT)  
+
 🔬 Research experience at IISER Bhopal (Federated Learning) and at GTRE,DRDO (Unsupervised Early failure detection)
+
 💻 Passionate about Machine Learning, NLP, and Predictive Maintenance  
+
 🧠 Always exploring new models, frameworks, and datasets
 
 ---
