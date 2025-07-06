@@ -12,6 +12,29 @@
 
 ## 🧑‍💻 Projects
 
+### 🏥 [Kenya Clinical Reasoning Challenge – MedAlpaca Fine-tuning](https://github.com/Deekshita-S/Clinical-reasoning---Kenya-Challenge)
+
+- Fine-tuned a [MedAlpaca model on Hugging Face](https://huggingface.co/ink/kenya-clinical-medalpaca) using 400 real-world clinical prompts from Kenyan frontline healthcare settings.  
+- Used **LoRA** (Low-Rank Adaptation) and **BitsAndBytes** quantization to efficiently fine-tune the model on a small dataset and limited compute.  
+- Replaced corrupted characters in text using manual mappings and regex replacements to restore prompt clarity.  
+- Extracted structured metadata (e.g., county, nursing experience, facility level, patient data) from both CSV and prompt content.  
+- Used `bertscore` for validation as it aligned better with expert clinical judgment than ROUGE.  
+- Best validation scores:
+
+```json
+{
+  "eval_loss": 1.2426,
+  "eval_bertscore_precision": 0.8871,
+  "eval_bertscore_recall": 0.9182,
+  "eval_bertscore_f1": 0.9023
+}
+```
+### 💬 [Brand Sentiment Classification with BERT](https://github.com/Deekshita-S/Twitter-Brand-Sentiment-Analysis)
+- Fine-tuned a BERT model on brand-related tweets for 3-class sentiment classification (positive, neutral, negative), using data augmentation and class-weighted loss to handle imbalance.
+- Initial traditional ML approaches underperformed (~73% accuracy), prompting a shift to BERT-based modeling with optimized preprocessing strategies.
+- Achieved ~87% accuracy and 88.6% F1-score, with performance tracked using Weights & Biases (WandB).
+  
+
 ### 🛰️ [Communication-Efficient Federated Learning – IISER Bhopal Internship](https://github.com/Deekshita-S/LANDER)
 - Modified the original LANDER code to reduce communication overhead and client training load in federated class-incremental learning.
 - Introduced entropy-based image selection to send only the most informative 50% of synthetic images.
@@ -25,11 +48,6 @@
 - Trained unsupervised models (OCSVM, LSTM Autoencoders, Transformer Autoencoders) on healthy data only.
 - Detected the onset of degradation based on reconstruction errors or decision function scores.
 
-
-### 💬 [Brand Sentiment Classification with BERT](https://github.com/Deekshita-S/Twitter-Brand-Sentiment-Analysis)
-- Fine-tuned a BERT model on brand-related tweets for 3-class sentiment classification (positive, neutral, negative), using data augmentation and class-weighted loss to handle imbalance.
-- Initial traditional ML approaches underperformed (~73% accuracy), prompting a shift to BERT-based modeling with optimized preprocessing strategies.
-- Achieved ~87% accuracy and 88.6% F1-score, with performance tracked using Weights & Biases (WandB).
 
 
 ### ☀️ [Solar Panel Efficiency Prediction (ML Competition)](https://github.com/Deekshita-S/Solar-panel-efficiency-prediction---Zelestra-Challenge)
